@@ -61,6 +61,7 @@ No external memory chip and no keypad are used: the PIN hash, OTP secret and eve
 2. Build and flash to the Nucleo board.
 3. Open a serial terminal on the ST-LINK COM port at 115200 baud, 8N1.
 4. Follow the prompts: set the time, choose a PIN, and add the printed Base32 secret to your authenticator app (time-based, SHA-1, 6 digits, 30 s).
+5. The Drivers folder is not included. Open DoorLock.ioc in STM32CubeIDE and click Generate Code to restore ST’s HAL and CMSIS.
 
 ## Code structure
 
