@@ -6,7 +6,7 @@ A bare-metal C door lock for an STM32 Nucleo board. The door opens only after **
 
 | Locked, waiting for PIN | PIN accepted, OTP needed |
 | --- | --- |
-| ![Locked screen](docs/locked.png) | ![PIN OK screen](docs/pin_ok.png) |
+| ![Locked screen](docs/locked.png) | ![PIN OK screen](docs/pinok.png) |
 
 | Unlocked | Tamper alarm |
 | --- | --- |
