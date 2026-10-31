@@ -2,6 +2,8 @@
 
 A bare-metal C door lock for an STM32 Nucleo board. The door opens only after **two factors**: a PIN and a time-based one-time password (TOTP) from an authenticator app. It also logs every event to on-chip flash and raises a tamper alarm when the light level around the lock changes suddenly.
 
+![Hardware setup](docs/hardware.png)
+
 | Locked, waiting for PIN | PIN accepted, OTP needed |
 | --- | --- |
 | ![Locked screen](docs/locked.png) | ![PIN OK screen](docs/pin_ok.png) |
